@@ -1,0 +1,42 @@
+:root{
+    --main : #6C6BDE;
+}
+.head, .head_left_side, .head_right_side{
+    height: 100vh;
+}
+
+.colored_dot{
+    color: var(--main) ;
+}
+
+.head_right_side{
+    background: url(Assets/opening.png) no-repeat;
+}
+
+.ABOUTmE, .ABOUTmE_left_side, .ABOUTmE_right_side{
+    height: 100vh;
+}
+.ABOUTmE_left_side{
+    overflow: hidden;
+}
+
+.skills{
+    background-color: var(--main);
+    height: 250px;
+}
+
+.skill_showcase{
+    height: 250px;
+}
+
+.footer, .footer_left_side, .footer_right_side{
+    height: 350px;
+}
+
+.footer_right_side{
+    background-color: var(--main);
+}
+
+.footer_right_side p{
+    color: white;
+}
