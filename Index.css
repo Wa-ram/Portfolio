@@ -2,6 +2,12 @@
     --main : #6C6BDE;
 }
 
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color: white !important;
+}
 .head, .head_left_side, .head_right_side{
     height: 100vh;
 }
@@ -26,7 +32,7 @@
     color: white;
     border: 3px solid rgba(255, 255, 255, 0.6) !important;
     background-color: var(--main) !important;
-
+    height: 350px !important;
 }
 
 .ABOUTmE, .ABOUTmE_left_side, .ABOUTmE_right_side{
@@ -43,8 +49,11 @@
     background-size: 100%;
 }
 
-.ABOUTmE_left_sidesm, .ABOUTmE_right_sidesm{
+.ABOUTmE_left_sidesm{
     height: 50vh;
+} 
+.ABOUTmE_right_sidesm{
+    height: 70vh;
 }
 
 .ABOUTmE_left_side{
