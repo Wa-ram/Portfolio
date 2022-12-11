@@ -34,7 +34,7 @@
 
         <div class="container-fluid d-md-none">
             <div class="row d-flex">
-                <div class="col-12 head_left_sidesm d-flex flex-column justify-content-between pb-5 border">
+                <div class="col-12 head_left_sidesm d-flex flex-column justify-content-between pb-5">
                     <img src="Assets/Logo.png" alt="Logo Mario Agouloye" width="250" class="col-5 ms-3">
                     <div class="menu">
                         <img src="Assets/Hamburger Menu.svg" alt="Hamburger menu" width="50">
@@ -44,7 +44,7 @@
                         <h3>UX/UI Designer<span class="colored_dot">.</span></h3>
                     </div>
                 </div>
-                <div class="col-12 head_right_sidesm d-flex justify-content-end pe-5 pt-4 border">
+                <div class="col-12 head_right_sidesm d-flex justify-content-end pe-5 pt-4">
                     <div class="right_stuff d-flex">
                         
                     </div>
@@ -55,42 +55,64 @@
     <!-- SERVICES -->
     <!-- ABOUT ME -->
     <div class="ABOUTmE">
-        <div class="container-fluid">
+        <div class="container-fluid d-none d-md-block">
             <div class="row d-flex">
-                <div class="col-12 col-lg-6 ABOUTmE_left_side d-flex flex-column p-0">
-                    <img src="Assets/waiting.png" alt="Logo Mario Agouloye" class="col-12 ABOUTmE_img">
+                <div class="col-6 ABOUTmE_left_side d-flex flex-column p-0">
+                    <!-- <img src="Assets/waiting.png" alt="Logo Mario Agouloye" class="col-12 ABOUTmE_img"> -->
                 </div>
-                <div class="col-12 col-lg-6 ABOUTmE_right_side d-flex justify-content-end">
+                <div class="col-6 ABOUTmE_right_side d-flex justify-content-end">
                     <div class="right_stuff d-flex align-items-center">
-                        <div class="ABOUTmE_text_section col-7 ms-5">
+                        <div class="ABOUTmE_text_section col-11 col-lg-9 col-xl-7 ms-2 ms-lg-5">
                             <h3>About me</h3>
                             <h1>Hey, I am Mario-José Agouloye</h1>
-                            <p>Innovative, with +2 years of experience in web design and development, I am equipped with a record of success in consistently identifying and delivering technology needs to my clients through ingenious innovation. 
+                            <p class="mb-4">Innovative, with +2 years of experience in web design and development, I am equipped with a record of success in consistently identifying and delivering technology needs to my clients through ingenious innovation. 
                                 <br> I am skilled in creating user interfaces, writing code, designing websites and implementing new features based on feedback from users or my clients. 
                             </p>
-                            <button class="px-4 py-1">
-                                <img src="Assets/DOWNLOADICON.svg" alt="Download Icon"> Download resume
+                            <button class="px-4 py-1 ResumeBut">
+                                <img src="Assets/DOWNLOADICON.svg" alt="Download Icon"> <span class="ms-2">Download resume</span>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="container-fluid d-md-none">
+            <div class="row d-flex">
+                <div class="col-12 ABOUTmE_right_sidesm d-flex justify-content-end">
+                    <div class="right_stuff d-flex align-items-center">
+                        <div class="ABOUTmE_text_section col-11 ms-3">
+                            <h4>About me</h4>
+                            <h2>Hey, I am Mario-José Agouloye</h2>
+                            <p class="mb-4">Innovative, with +2 years of experience in web design and development, I am equipped with a record of success in consistently identifying and delivering technology needs to my clients through ingenious innovation. 
+                                <br> I am skilled in creating user interfaces, writing code, designing websites and implementing new features based on feedback from users or my clients. 
+                            </p>
+                            <button class="ResumeBut d-flex justify-content-around">
+                                <img src="Assets/DOWNLOADICON.svg" alt="Download Icon"><span class="ms-2">Download resume</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 ABOUTmE_left_sidesm d-flex flex-column p-0">
+                    <!-- <img src="Assets/waiting.png" alt="Logo Mario Agouloye" class="col-6 ABOUTmE_img"> -->
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- SKILLS -->
-    <div class="skills">
+    <div class="skills py-2 py-md-5">
         <div class="container">
             <div class="row d-flex align-items-end">
-                <div class="col-12 skill_showcase d-flex justify-content-between  align-items-center flex-wrap">
-                    <img src="Assets/logos_html-5.svg" alt="Logo Mario Agouloye">
-                    <img src="Assets/logos_css-3.svg" alt="Logo Mario Agouloye">
-                    <img src="Assets/logo_bootstrap.svg" alt="Logo Mario Agouloye">
-                    <img src="Assets/Logo_Javascript.svg" alt="Logo Mario Agouloye">
-                    <img src="Assets/logos_react.svg" alt="Logo Mario Agouloye">
-                    <img src="Assets/logos_figma.svg" alt="Logo Mario Agouloye">
-                    <img src="Assets/logo_github.svg" alt="Logo Mario Agouloye">
-                    <img src="Assets/logo_git.svg" alt="Logo Mario Agouloye">
+                <div class="col-12 skill_showcase d-flex justify-content-around align-items-center flex-wrap">
+                    <img src="Assets/logos_html-5.svg" alt="Logo Mario Agouloye" class="col-1">
+                    <img src="Assets/logos_css-3.svg" alt="Logo Mario Agouloye" class="col-1">
+                    <img src="Assets/logo_bootstrap.svg" alt="Logo Mario Agouloye" class="col-1">
+                    <img src="Assets/Logo_Javascript.svg" alt="Logo Mario Agouloye" class="col-1">
+                    <img src="Assets/logos_react.svg" alt="Logo Mario Agouloye" class="col-1">
+                    <img src="Assets/logos_figma.svg" alt="Logo Mario Agouloye" class="col-1">
+                    <img src="Assets/logo_github.svg" alt="Logo Mario Agouloye" class="col-1">
+                    <img src="Assets/logo_git.svg" alt="Logo Mario Agouloye" class="col-1">
                 </div>
             </div>
         </div>

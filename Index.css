@@ -21,17 +21,42 @@
 .ABOUTmE, .ABOUTmE_left_side, .ABOUTmE_right_side{
     height: 100vh;
 }
+
+.ABOUTmE_left_side{
+    background: url(Assets/waiting.png) no-repeat;
+}
+
+.ABOUTmE_left_sidesm{
+    background: url(Assets/waiting.png) no-repeat;
+    background-position-y: top;
+    background-size: 100%;
+}
+
+.ABOUTmE_left_sidesm, .ABOUTmE_right_sidesm{
+    height: 50vh;
+}
+
 .ABOUTmE_left_side{
     overflow: hidden;
 }
 
+.ResumeBut{
+    background-color: var(--main);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 10px 15px 10px;
+    height: 60px;
+    width: 230px;
+}
+
 .skills{
     background-color: var(--main);
-    height: 250px;
+    /* padding: 30px 0 30px 0; */
 }
 
 .skill_showcase{
-    height: 250px;
+    height: 175px;
 }
 
 .footer, .footer_left_side, .footer_right_side{
