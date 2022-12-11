@@ -22,6 +22,13 @@
     background-color: var(--main);
 }
 
+.card{
+    color: white;
+    border: 3px solid rgba(255, 255, 255, 0.6) !important;
+    background-color: var(--main) !important;
+
+}
+
 .ABOUTmE, .ABOUTmE_left_side, .ABOUTmE_right_side{
     height: 100vh;
 }
