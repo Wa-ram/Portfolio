@@ -18,6 +18,10 @@
     background: url(Assets/opening.png) no-repeat;
 }
 
+.Services{
+    background-color: var(--main);
+}
+
 .ABOUTmE, .ABOUTmE_left_side, .ABOUTmE_right_side{
     height: 100vh;
 }
