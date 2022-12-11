@@ -1,15 +1,20 @@
 :root{
     --main : #6C6BDE;
 }
+
 .head, .head_left_side, .head_right_side{
     height: 100vh;
+}
+
+.head_left_sidesm, .head_right_sidesm{
+    height: 50vh;
 }
 
 .colored_dot{
     color: var(--main) ;
 }
 
-.head_right_side{
+.head_right_side, .head_right_sidesm{
     background: url(Assets/opening.png) no-repeat;
 }
 
